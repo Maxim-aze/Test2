@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left {
+  background-color: #3232c2;
+  width: 20%;
+  padding: 60px;
+  height: 1800px;
+}
+
+.left .leftfix {
+  position: fixed;
+}
+
+.left .ltop {
+  margin-left: 50px;
+}
+
+.left .ltop img {
+  height: 20vh;
+  border-radius: 50%;
+}
+
+.left .ltop h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+
+.left .ltop h4 {
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.left .licons {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.left .lbtn {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.left .lbtn button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.left .lbtn button:hover {
+  cursor: pointer;
+  background-color: #5c5cca;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.right {
+  padding: 60px;
+}
+
+.right .rtop .rtop1 h3 {
+  color: red;
+}
+
+.right .rtop .rtop1 h4 {
+  font-weight: 500;
+}
+
+.right .rtop .rtop1 button {
+  position: absolute;
+  background-color: #3232c2;
+  border: none;
+  padding: 5px;
+  color: white;
+  margin-left: 850px;
+  margin-top: -150px;
+  width: 170px;
+}
+
+.right .rtop .rtop1 button:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.right .rtop2 {
+  margin-top: 50px;
+}
+
+.right .rtop2 h5 {
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -16px;
+}
+
+.rlow {
+  margin-top: 50px;
+}
+
+.rlow .rlow11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rlow .rlow22 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rlow .rlow2 {
+  margin-left: 30px;
+}
+
+.rlow .rlow3 {
+  margin-top: 10px;
+}
+
+.rlow .rlow4 {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.rlow .l1 {
+  height: 5px;
+  width: 200px;
+  background-color: #c5c5c5;
+}
+
+.rlow .l1 .l11 {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.rlow .l2 {
+  height: 5px;
+  width: 200px;
+  background-color: #c5c5c5;
+}
+
+.rlow .l2 .l22 {
+  width: 0%;
+  height: 100%;
+  background-color: red;
+}
+
+.rlow .l3 {
+  height: 5px;
+  width: 200px;
+  background-color: #c5c5c5;
+}
+
+.rlow .l3 .l33 {
+  width: 80%;
+  height: 100%;
+  background-color: red;
+}
+
+.rlow .l4 {
+  height: 5px;
+  width: 200px;
+  background-color: #c5c5c5;
+}
+
+.rlow .l4 .l44 {
+  width: 60%;
+  height: 100%;
+  background-color: red;
+}
+
+.rmid {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.rmid .r1 {
+  padding-top: 50px;
+  width: 100%;
+  border-top: 1px solid grey;
+}
+
+.rmid .r1 h3 {
+  font-weight: 800;
+}
+
+.rmid .r2 {
+  padding-top: 50px;
+  width: 100%;
+  border-top: 1px solid grey;
+  margin-top: 50px;
+}
+
+.rmid .r2 h3 {
+  font-weight: 800;
+}
+
+.rmid .r2 h4 {
+  font-size: 15px;
+}
+
+.rmid #ed {
+  color: red;
+  font-size: 20px;
+}
+
+.rmid #k1 {
+  color: grey;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.port {
+  margin-top: 50px;
+  border-top: 1px solid grey;
+  padding-top: 50px;
+}
+
+.port h3 {
+  color: red;
+}
+
+.port .port1 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.port .port1 h4 {
+  color: grey;
+}
+
+.port .port1 h4:hover {
+  cursor: pointer;
+  color: black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=style.css.map */

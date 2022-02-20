@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    display: flex;
+}
+.left{
+    background-color: rgb(50, 50, 194);
+    width: 20%;
+    padding: 60px;
+    height: 1800px;
+    .leftfix{
+        position: fixed;
+    }
+    .ltop{
+        margin-left: 50px;
+        img{
+            height: 20vh;
+            border-radius: 50%;
+        }
+        h2{
+            font-size: 40px;
+            font-weight: 800;
+            color: white;
+        }
+        h4{
+            color: white;
+            font-size: 17px;
+            font-weight: 400;
+            margin-top: 5px;
+        }
+    }
+    .licons{
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .lbtn{
+        margin-top: 50px;
+        margin-left: 40px;
+        button{
+            background-color: transparent;
+            border: none;
+            color: white;
+            padding: 10px;
+            font-weight: 600;
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(92, 92, 202);
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+.right{
+    padding: 60px;
+    .rtop{
+        .rtop1{
+            h3{
+                color: red;
+            }
+            h4{
+                font-weight: 500;
+            }
+            button{
+                position: absolute;
+                background-color: rgb(50, 50, 194);
+                border: none;
+                padding: 5px;
+                color: white;
+                margin-left: 850px;
+                margin-top: -150px;
+                width: 170px;
+                &:hover{
+                    transition: 0.3s;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .rtop2{
+        margin-top: 50px;
+        h5{
+            position: absolute;
+            margin-left: 70px;
+            margin-top: -16px;
+        }
+    }
+}
+
+.rlow{
+    margin-top: 50px;
+    .rlow11{
+        display: flex;
+    }
+    .rlow22{
+        display: flex;
+    }
+    .rlow2{
+        margin-left: 30px
+    }
+    .rlow3{
+        margin-top: 10px;
+    }
+    .rlow4{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .l1{
+        height: 5px;
+        width: 200px;
+        background-color: rgb(197, 197, 197);
+        .l11{
+            width: 100%;
+            height: 100%;
+            background-color: red;
+        }
+    }
+    .l2{
+        height: 5px;
+        width: 200px;
+        background-color: rgb(197, 197, 197);
+        .l22{
+            width: 0%;
+            height: 100%;
+            background-color: red;
+        }
+    }
+    .l3{
+        height: 5px;
+        width: 200px;
+        background-color: rgb(197, 197, 197);
+        .l33{
+            width: 80%;
+            height: 100%;
+            background-color: red;
+        }
+    }
+    .l4{
+        height: 5px;
+        width: 200px;
+        background-color: rgb(197, 197, 197);
+        .l44{
+            width: 60%;
+            height: 100%;
+            background-color: red;
+        }
+    }
+}
+
+.rmid{ 
+    width: 100%;
+    margin-top: 50px;
+    .r1{
+        padding-top: 50px;
+        width: 100%;
+        border-top: 1px solid grey;
+        h3{
+            font-weight: 800;
+        }
+    }
+    .r2{
+        padding-top: 50px;
+        width: 100%;
+        border-top: 1px solid grey;
+        margin-top: 50px;
+        h3{
+            font-weight: 800;
+        }
+        h4{
+            font-size: 15px;
+        }
+    }
+    #ed{
+        color: red;
+        font-size: 20px;
+    }
+    #k1{
+        color: grey;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+.port{
+    margin-top: 50px;
+    border-top: 1px solid grey;
+    padding-top: 50px;
+    h3{
+        color: red;
+    }
+    .port1{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        h4{
+            color: grey;
+            &:hover{
+                cursor: pointer;
+                color: black;
+                transition: 0.3s;
+            }
+        }
+    }
+}
